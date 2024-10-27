@@ -1,6 +1,7 @@
 import { defineStore } from "pinia";
 import { ref, computed } from "vue";
 
+// defininindo a store que ira prover dados globais pelo pinia
 export const useGlobalStore = defineStore('global', () => {
 
     const count = ref(0);

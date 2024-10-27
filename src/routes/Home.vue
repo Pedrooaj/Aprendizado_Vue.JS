@@ -16,15 +16,17 @@
     <h1>Api's no vue</h1>
     <div id="container">
     <OptionsAPI />
-    <CompositonAPI />
-    
+    <CompositonAPI />  
   </div>
+  <!-- Neste componente estamos passando props para ele receber -->
+   <!-- OBS em alguns casos de componentes que queira utilizar children basta utilizarmos slot no componente filho e ele ira receber os atributos contidos -->
   <Props mensagem="Mensagem passada via props utilizando CompositonAPI!" v-bind="dados" />
 </template>
 
 
-<style scoped>
 
+<style scoped>
+/* declaramos scoped no style apenas quando queremos usar os estilos de forma local */
 #container{
   display: flex;
   gap: 20px;

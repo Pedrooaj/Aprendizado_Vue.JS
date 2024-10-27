@@ -27,7 +27,7 @@ const routes = [
   }
 ];
 
-// criando rota de apps
+// criando rota de apps com o array de rotas definido acima
 const appRoutes = createRouter({
   history: createWebHistory(),
   routes
