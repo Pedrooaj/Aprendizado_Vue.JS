@@ -2,6 +2,7 @@
     import OptionsAPI from '../components/OptionsAPI.vue';
     import Props from '../components/Props.vue';
     import CompositonAPI from '../components/CompositonAPI.vue';
+    import Button from '../components/Button.vue';
 
 
     const dados = {
@@ -21,6 +22,7 @@
   <!-- Neste componente estamos passando props para ele receber -->
    <!-- OBS em alguns casos de componentes que queira utilizar children basta utilizarmos slot no componente filho e ele ira receber os atributos contidos -->
   <Props mensagem="Mensagem passada via props utilizando CompositonAPI!" v-bind="dados" />
+  <Button>Botão passado por children</Button>
 </template>
 
 

@@ -1,6 +1,7 @@
 <template>
     <p>{{ mensagem }}</p> 
     <p>{{ nome }}</p>
+    <p>{{ email }}</p>
     <p>{{ idade }}</p>
 </template>
 
@@ -9,7 +10,8 @@
     const props = defineProps({
         mensagem: String,
         nome: String,
-        idade: Number
+        idade: Number,
+        email: String
     })
 
 </script>
