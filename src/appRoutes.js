@@ -3,6 +3,7 @@ import Home from "./routes/Home.vue"
 import Eventos from './routes/Eventos.vue';
 import Pinia from './routes/Pinia.vue';
 import NotFound from './routes/NotFound.vue';
+import WatchEffect from './routes/Watch.vue';
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: NotFound // definindo componente que ira ser renderizado na pagina 404
+  },
+  {
+    path: '/watch',
+    name: 'Watch',
+    component: WatchEffect
   }
 ];
 

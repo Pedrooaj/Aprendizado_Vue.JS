@@ -13,6 +13,9 @@
     <RouterLink to="/pinia">
       Pinia
     </RouterLink>
+    <RouterLink to="/watch">
+      Watch
+    </RouterLink>
   </ul>
   <RouterView />
 </template>
